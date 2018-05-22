@@ -1,10 +1,10 @@
 # BikeShare Data Analysis
 
----
+----
 $ pip3 install -r requirements.txt
----
+----
 
----
+----
 $ python3 bikeshare.py 
 Hello! Let's explore some US bikeshare data!
 Which city do you want to explore Chicago, New York or Washington?
@@ -150,4 +150,4 @@ Would you like to examine the particular user trip data? Type 'yes' or 'no'
 
 Would you like to restart? Enter yes or no.
 no
----
+----
