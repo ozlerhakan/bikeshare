@@ -1,0 +1,153 @@
+# BikeShare Data Analysis
+
+---
+$ pip3 install -r requirements.txt
+---
+
+---
+$ python3 bikeshare.py 
+Hello! Let's explore some US bikeshare data!
+Which city do you want to explore Chicago, New York or Washington?
+> Chicago
+All right! now it's time to provide us a month name or just say 'all' to apply no month filter.
+(e.g. all, january, february, march, april, may, june)
+> all
+One last thing. Could you type one of the week day you want to analyze? You can type 'all' again to apply no day filter.
+(e.g. all, monday, sunday)
+> monday
+----------------------------------------
+
+Calculating The Most Frequent Times of Travel...
+
+The most common month is : 6
+The most common day of week is : Monday
+The most common start hour is : 17
+
+This took 0.011397838592529297 seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+The most commonly used start station : Streeter Dr & Grand Ave
+The most commonly used end station : Streeter Dr & Grand Ave
+The most commonly used start station and end station : Streeter Dr & Grand Ave, Streeter Dr & Grand Ave
+
+This took 0.05916190147399902 seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+Total travel time : 39945856
+Mean travel time : 890.039348499365
+Max travel time : 83766
+Travel time for each user type:
+
+  Customer: 13933836
+  Subscriber: 26012020
+
+This took 0.02193307876586914 seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+Counts of user types:
+
+  Subscriber: 37316
+  Customer: 7565
+
+Counts of gender:
+
+  Male: 28646
+  Female: 8689
+
+The most common birth year: 1989.0
+The most recent birth year: 2016.0
+The most earliest birth year: 1899.0
+
+This took 0.03065013885498047 seconds.
+----------------------------------------
+
+Calculating Dataset Stats...
+
+The number of missing values in the chicago dataset : 15088
+The number of missing values in the 'User Type' column: 15088
+
+Would you like to examine the particular user trip data? Type 'yes' or 'no'
+> yes
+{
+  "Unnamed: 0": 304487,
+  "Start Time": 1488808178000,
+  "End Time": "2017-03-06 13:55:28",
+  "Trip Duration": 350,
+  "Start Station": "Christiana Ave & Lawrence Ave",
+  "End Station": "St. Louis Ave & Balmoral Ave",
+  "User Type": "Subscriber",
+  "Gender": "Male",
+  "Birth Year": 1986.0,
+  "month": 3,
+  "day_of_week": "Monday",
+  "hour": 13
+}
+{
+  "Unnamed: 0": 1473887,
+  "Start Time": 1498467680000,
+  "End Time": "2017-06-26 09:11:06",
+  "Trip Duration": 586,
+  "Start Station": "Clinton St & Washington Blvd",
+  "End Station": "Canal St & Taylor St",
+  "User Type": "Subscriber",
+  "Gender": "Male",
+  "Birth Year": 1990.0,
+  "month": 6,
+  "day_of_week": "Monday",
+  "hour": 9
+}
+{
+  "Unnamed: 0": 135470,
+  "Start Time": 1486404047000,
+  "End Time": "2017-02-06 18:09:00",
+  "Trip Duration": 493,
+  "Start Station": "Stetson Ave & South Water St",
+  "End Station": "Clinton St & Washington Blvd",
+  "User Type": "Subscriber",
+  "Gender": "Male",
+  "Birth Year": 1979.0,
+  "month": 2,
+  "day_of_week": "Monday",
+  "hour": 18
+}
+{
+  "Unnamed: 0": 1359055,
+  "Start Time": 1497894197000,
+  "End Time": "2017-06-19 17:59:35",
+  "Trip Duration": 978,
+  "Start Station": "Larrabee St & Armitage Ave",
+  "End Station": "Dearborn Pkwy & Delaware Pl",
+  "User Type": "Subscriber",
+  "Gender": "Female",
+  "Birth Year": 1993.0,
+  "month": 6,
+  "day_of_week": "Monday",
+  "hour": 17
+}
+{
+  "Unnamed: 0": 165328,
+  "Start Time": 1486995445000,
+  "End Time": "2017-02-13 14:22:52",
+  "Trip Duration": 327,
+  "Start Station": "University Ave & 57th St",
+  "End Station": "Kimbark Ave & 53rd St",
+  "User Type": "Subscriber",
+  "Gender": "Female",
+  "Birth Year": 1984.0,
+  "month": 2,
+  "day_of_week": "Monday",
+  "hour": 14
+}
+
+Would you like to examine the particular user trip data? Type 'yes' or 'no'
+> no
+
+Would you like to restart? Enter yes or no.
+no
+---
